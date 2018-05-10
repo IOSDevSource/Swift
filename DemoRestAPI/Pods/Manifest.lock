@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.7.2)
+  - SWXMLHash (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - SWXMLHash (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  SWXMLHash: 6bbc0bf72975a18ceda469fb7d6a886a26d81694
+
+PODFILE CHECKSUM: 3802c44a4ca059ab27c0def9bebfa2abee271648
+
+COCOAPODS: 1.5.0
