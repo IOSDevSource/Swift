@@ -1,0 +1,6 @@
+framework module Pods_DemoFCMPushUITests {
+  umbrella header "Pods-DemoFCMPushUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
