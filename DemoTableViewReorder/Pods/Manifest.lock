@@ -1,0 +1,16 @@
+PODS:
+  - SwiftReorder (5.0.0)
+
+DEPENDENCIES:
+  - SwiftReorder (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SwiftReorder
+
+SPEC CHECKSUMS:
+  SwiftReorder: 66c81f33321629715c53a8f8214a1e892a9f0fdd
+
+PODFILE CHECKSUM: 56b728f0ad25100826995eb01897f8b9805692a7
+
+COCOAPODS: 1.5.0

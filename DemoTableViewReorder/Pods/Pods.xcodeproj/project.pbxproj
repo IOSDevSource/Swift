@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058B547F7FE90E8C4D00EBB2963693FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1D500077E001FCF3628D284C27F1F0D7 /* Pods-DemoTableViewReorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C7C809693A2626A6F065003017145A /* Pods-DemoTableViewReorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DBFA77E5ED0047FCA9B45D420534E87 /* ReorderController+AutoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FD58F0265EE7336AAD833015C8581 /* ReorderController+AutoScroll.swift */; };
+		3E85DFC489459763E0405F45B328351F /* SwiftReorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 475BEB253C451EB2A3B1132FB3E6FF82 /* SwiftReorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44843D548ABBBEEFF89E54D7F2191384 /* Pods-DemoTableViewReorderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5896FF942B7294A77153460644743B /* Pods-DemoTableViewReorderUITests-dummy.m */; };
+		4CE3B4E528849F6425B3D3EE85A683F3 /* UITableView+Reorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF92D7377E30C668D8549C8F6E14423 /* UITableView+Reorder.swift */; };
+		5318610BAEDB5436B767E9099F02B23D /* Pods-DemoTableViewReorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4C9E2B9B35D101FEEA173D2A814AB8 /* Pods-DemoTableViewReorder-dummy.m */; };
+		6D82D843B8F6E63546EBDA1A10A92E1F /* ReorderController+DestinationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73E4911C745BA129C8DF6AAB355899F /* ReorderController+DestinationRow.swift */; };
+		7A6F503FDA1B937ECFC375DDB8F14A41 /* ReorderController+GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA80D6ADD1FD042EED34696B63FFCD2 /* ReorderController+GestureRecognizer.swift */; };
+		8ED5425FF72F71EAC4E348296F00EB8F /* ReorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED656F5ADFA974708978BF6276C5D3B9 /* ReorderController.swift */; };
+		A9D657387ACAE09C117AC9039A886D08 /* Pods-DemoTableViewReorderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6562C6CBF5EF3943BD250524AF25C53 /* Pods-DemoTableViewReorderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDF512B297F03C2CCE248D69E5E7DAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BFB1C4F256BEC5DD75955B6F37A2566A /* SwiftReorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A256CE2AE613F4439C965503FB2FE1BD /* SwiftReorder-dummy.m */; };
+		C909A54828763A996A75E438DEA63BE5 /* ReorderController+SnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CFECA0D40E98D0D462115AED82975 /* ReorderController+SnapshotView.swift */; };
+		E1584B32F607BF4763D6644D25B36396 /* Pods-DemoTableViewReorderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3455BCD15D9C4A5CB21E510D20582D /* Pods-DemoTableViewReorderTests-dummy.m */; };
+		E5C4A4C67D215340241CB8979984D627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EAC99A00D8B79BF1D2B647F09C37215B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FC2BF22B2185C512D2EF51227BAA02D2 /* Pods-DemoTableViewReorderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F35DE88171E2EA9A42D788570061AAB /* Pods-DemoTableViewReorderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AECEA98F3863A2A741B34EA3A5BB076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0D5C1C98AFECA1F8B85EF11C6765250;
+			remoteInfo = "Pods-DemoTableViewReorder";
+		};
+		C9425D851E96BEDD0E56D3B06763085D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2108310D82E5AA6A9BFA25DF1004625A;
+			remoteInfo = SwiftReorder;
+		};
+		DD46225B6242413C30243C355B4710DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0D5C1C98AFECA1F8B85EF11C6765250;
+			remoteInfo = "Pods-DemoTableViewReorder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020FD58F0265EE7336AAD833015C8581 /* ReorderController+AutoScroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReorderController+AutoScroll.swift"; path = "Source/ReorderController+AutoScroll.swift"; sourceTree = "<group>"; };
+		03E68B1A9AE47D0035B9CD8CAD7F0B1A /* Pods-DemoTableViewReorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTableViewReorderTests.release.xcconfig"; sourceTree = "<group>"; };
+		0ECDA2DE89A26A0936668917FBF988DA /* Pods-DemoTableViewReorderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTableViewReorderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12B5CBE7AFF357674ECE7F1BFA2930FC /* Pods-DemoTableViewReorder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTableViewReorder-acknowledgements.plist"; sourceTree = "<group>"; };
+		2252F3A926275D5EB9A811F928C4002D /* SwiftReorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftReorder-prefix.pch"; sourceTree = "<group>"; };
+		2340AD9AC4A2AA8FA9CFF1BC00881F5C /* Pods-DemoTableViewReorderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoTableViewReorderUITests-resources.sh"; sourceTree = "<group>"; };
+		2C475211CC4E092E381EC2A761C9FF21 /* Pods-DemoTableViewReorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTableViewReorderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E35916FA7DD05D5519808543060785E /* Pods-DemoTableViewReorderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoTableViewReorderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32928F169257892C6E0D907013E729D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CF4160CA1B5479D13D5E3A3E7FDE8D /* Pods-DemoTableViewReorderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoTableViewReorderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		36AD245A54CCFB350FEB1A75023ADBF7 /* Pods-DemoTableViewReorderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoTableViewReorderTests-resources.sh"; sourceTree = "<group>"; };
+		37424294402625CD427A974D20756892 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3A51E9DC4CE1AF2CB4B7E1959B7846 /* Pods-DemoTableViewReorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTableViewReorder.release.xcconfig"; sourceTree = "<group>"; };
+		420E543749ED999E2466F92DD743C561 /* Pods-DemoTableViewReorderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoTableViewReorderUITests.modulemap"; sourceTree = "<group>"; };
+		475BEB253C451EB2A3B1132FB3E6FF82 /* SwiftReorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftReorder-umbrella.h"; sourceTree = "<group>"; };
+		47E547F63FBF538E3FE2CFF2517E68A8 /* Pods_DemoTableViewReorderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoTableViewReorderUITests.framework; path = "Pods-DemoTableViewReorderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3455BCD15D9C4A5CB21E510D20582D /* Pods-DemoTableViewReorderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoTableViewReorderTests-dummy.m"; sourceTree = "<group>"; };
+		4F35DE88171E2EA9A42D788570061AAB /* Pods-DemoTableViewReorderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoTableViewReorderTests-umbrella.h"; sourceTree = "<group>"; };
+		5EA80D6ADD1FD042EED34696B63FFCD2 /* ReorderController+GestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReorderController+GestureRecognizer.swift"; path = "Source/ReorderController+GestureRecognizer.swift"; sourceTree = "<group>"; };
+		634C876BEB599001BE888D88B7BDEBB5 /* Pods-DemoTableViewReorderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoTableViewReorderTests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E1DC2E159361A62C4504ADB6F8E6437 /* Pods-DemoTableViewReorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTableViewReorder.debug.xcconfig"; sourceTree = "<group>"; };
+		7433461349D05F7EFEC0A26D6E07758B /* SwiftReorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftReorder.xcconfig; sourceTree = "<group>"; };
+		7E9269F3617C321A9510F21E0FC5754E /* Pods-DemoTableViewReorder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoTableViewReorder-resources.sh"; sourceTree = "<group>"; };
+		8081B8CF81B570188B1E58668843994B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835D15F338E351A6B644110E02410D92 /* Pods-DemoTableViewReorderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTableViewReorderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		936E81E81F8BAEC686D8AADA9664D759 /* Pods-DemoTableViewReorder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoTableViewReorder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97DFDD85C2CEB2334AB0325A5D9D9500 /* Pods_DemoTableViewReorderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoTableViewReorderTests.framework; path = "Pods-DemoTableViewReorderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BA536E57F98A57B8B13A455AB056A2 /* Pods-DemoTableViewReorderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTableViewReorderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		994CFECA0D40E98D0D462115AED82975 /* ReorderController+SnapshotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReorderController+SnapshotView.swift"; path = "Source/ReorderController+SnapshotView.swift"; sourceTree = "<group>"; };
+		9BB184A8AD66DF9E322BFA4EC5126261 /* Pods-DemoTableViewReorderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoTableViewReorderTests.modulemap"; sourceTree = "<group>"; };
+		9FAD30C0057D42BBFFB7E4A3CFB1D3C0 /* Pods_DemoTableViewReorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoTableViewReorder.framework; path = "Pods-DemoTableViewReorder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A256CE2AE613F4439C965503FB2FE1BD /* SwiftReorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftReorder-dummy.m"; sourceTree = "<group>"; };
+		A73E4911C745BA129C8DF6AAB355899F /* ReorderController+DestinationRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReorderController+DestinationRow.swift"; path = "Source/ReorderController+DestinationRow.swift"; sourceTree = "<group>"; };
+		A9C9D8C5E5CED59AF1E873941F9AD9DB /* Pods-DemoTableViewReorderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoTableViewReorderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC07B0AD9C2FC2ECF3E9C89118592625 /* Pods-DemoTableViewReorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoTableViewReorder.modulemap"; sourceTree = "<group>"; };
+		AE0070285D685D27E610D68CCA5B57DD /* Pods-DemoTableViewReorder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoTableViewReorder-frameworks.sh"; sourceTree = "<group>"; };
+		B6C7C809693A2626A6F065003017145A /* Pods-DemoTableViewReorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoTableViewReorder-umbrella.h"; sourceTree = "<group>"; };
+		B957E61431CAE95E1E61CC9D8553DB99 /* SwiftReorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftReorder.modulemap; sourceTree = "<group>"; };
+		C6562C6CBF5EF3943BD250524AF25C53 /* Pods-DemoTableViewReorderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoTableViewReorderUITests-umbrella.h"; sourceTree = "<group>"; };
+		CE6A51C624A9D261B9114C0659D2BBF5 /* Pods-DemoTableViewReorderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTableViewReorderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB5896FF942B7294A77153460644743B /* Pods-DemoTableViewReorderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoTableViewReorderUITests-dummy.m"; sourceTree = "<group>"; };
+		ED656F5ADFA974708978BF6276C5D3B9 /* ReorderController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReorderController.swift; path = Source/ReorderController.swift; sourceTree = "<group>"; };
+		EED2E5E55FBC1A6C0622E7D79A9D85ED /* SwiftReorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftReorder.framework; path = SwiftReorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF92D7377E30C668D8549C8F6E14423 /* UITableView+Reorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Reorder.swift"; path = "Source/UITableView+Reorder.swift"; sourceTree = "<group>"; };
+		F21077D3BB514135B3A031BEAAB7BE4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE4C9E2B9B35D101FEEA173D2A814AB8 /* Pods-DemoTableViewReorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoTableViewReorder-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33079A3F158044E51F024FCE3B1484D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF512B297F03C2CCE248D69E5E7DAB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401812B6A9EAE1F01DD335821AFE5B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C4A4C67D215340241CB8979984D627 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5470E3EE00D8E7F893CF60881262D2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058B547F7FE90E8C4D00EBB2963693FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA891D6C734B9CB0E25B47F8F08487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC99A00D8B79BF1D2B647F09C37215B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CF286CD6AB445F35BEB97D993E6D92 /* SwiftReorder */ = {
+			isa = PBXGroup;
+			children = (
+				ED656F5ADFA974708978BF6276C5D3B9 /* ReorderController.swift */,
+				020FD58F0265EE7336AAD833015C8581 /* ReorderController+AutoScroll.swift */,
+				A73E4911C745BA129C8DF6AAB355899F /* ReorderController+DestinationRow.swift */,
+				5EA80D6ADD1FD042EED34696B63FFCD2 /* ReorderController+GestureRecognizer.swift */,
+				994CFECA0D40E98D0D462115AED82975 /* ReorderController+SnapshotView.swift */,
+				EFF92D7377E30C668D8549C8F6E14423 /* UITableView+Reorder.swift */,
+				BD41AAE822805CB835E30A5CDEF338D7 /* Support Files */,
+			);
+			name = SwiftReorder;
+			path = SwiftReorder;
+			sourceTree = "<group>";
+		};
+		0A33D982E5B9085D9D4598AB117D9810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FAD30C0057D42BBFFB7E4A3CFB1D3C0 /* Pods_DemoTableViewReorder.framework */,
+				97DFDD85C2CEB2334AB0325A5D9D9500 /* Pods_DemoTableViewReorderTests.framework */,
+				47E547F63FBF538E3FE2CFF2517E68A8 /* Pods_DemoTableViewReorderUITests.framework */,
+				EED2E5E55FBC1A6C0622E7D79A9D85ED /* SwiftReorder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326F4EFB9ED598E811373DFD6AF66A9B /* Pods-DemoTableViewReorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37424294402625CD427A974D20756892 /* Info.plist */,
+				420E543749ED999E2466F92DD743C561 /* Pods-DemoTableViewReorderUITests.modulemap */,
+				A9C9D8C5E5CED59AF1E873941F9AD9DB /* Pods-DemoTableViewReorderUITests-acknowledgements.markdown */,
+				98BA536E57F98A57B8B13A455AB056A2 /* Pods-DemoTableViewReorderUITests-acknowledgements.plist */,
+				EB5896FF942B7294A77153460644743B /* Pods-DemoTableViewReorderUITests-dummy.m */,
+				32CF4160CA1B5479D13D5E3A3E7FDE8D /* Pods-DemoTableViewReorderUITests-frameworks.sh */,
+				2340AD9AC4A2AA8FA9CFF1BC00881F5C /* Pods-DemoTableViewReorderUITests-resources.sh */,
+				C6562C6CBF5EF3943BD250524AF25C53 /* Pods-DemoTableViewReorderUITests-umbrella.h */,
+				835D15F338E351A6B644110E02410D92 /* Pods-DemoTableViewReorderUITests.debug.xcconfig */,
+				CE6A51C624A9D261B9114C0659D2BBF5 /* Pods-DemoTableViewReorderUITests.release.xcconfig */,
+			);
+			name = "Pods-DemoTableViewReorderUITests";
+			path = "Target Support Files/Pods-DemoTableViewReorderUITests";
+			sourceTree = "<group>";
+		};
+		37D52DF132A7E1F1468238C101E76E06 /* Pods-DemoTableViewReorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				32928F169257892C6E0D907013E729D7 /* Info.plist */,
+				9BB184A8AD66DF9E322BFA4EC5126261 /* Pods-DemoTableViewReorderTests.modulemap */,
+				2E35916FA7DD05D5519808543060785E /* Pods-DemoTableViewReorderTests-acknowledgements.markdown */,
+				0ECDA2DE89A26A0936668917FBF988DA /* Pods-DemoTableViewReorderTests-acknowledgements.plist */,
+				4A3455BCD15D9C4A5CB21E510D20582D /* Pods-DemoTableViewReorderTests-dummy.m */,
+				634C876BEB599001BE888D88B7BDEBB5 /* Pods-DemoTableViewReorderTests-frameworks.sh */,
+				36AD245A54CCFB350FEB1A75023ADBF7 /* Pods-DemoTableViewReorderTests-resources.sh */,
+				4F35DE88171E2EA9A42D788570061AAB /* Pods-DemoTableViewReorderTests-umbrella.h */,
+				2C475211CC4E092E381EC2A761C9FF21 /* Pods-DemoTableViewReorderTests.debug.xcconfig */,
+				03E68B1A9AE47D0035B9CD8CAD7F0B1A /* Pods-DemoTableViewReorderTests.release.xcconfig */,
+			);
+			name = "Pods-DemoTableViewReorderTests";
+			path = "Target Support Files/Pods-DemoTableViewReorderTests";
+			sourceTree = "<group>";
+		};
+		7545B618BC184DB65199E2DB3D795B72 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7DC8D82A27135716630F93D69CCFF5C /* Pods-DemoTableViewReorder */,
+				37D52DF132A7E1F1468238C101E76E06 /* Pods-DemoTableViewReorderTests */,
+				326F4EFB9ED598E811373DFD6AF66A9B /* Pods-DemoTableViewReorderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E143F0879C64F953AA4DCF08B25281BC /* Pods */,
+				0A33D982E5B9085D9D4598AB117D9810 /* Products */,
+				7545B618BC184DB65199E2DB3D795B72 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD41AAE822805CB835E30A5CDEF338D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8081B8CF81B570188B1E58668843994B /* Info.plist */,
+				B957E61431CAE95E1E61CC9D8553DB99 /* SwiftReorder.modulemap */,
+				7433461349D05F7EFEC0A26D6E07758B /* SwiftReorder.xcconfig */,
+				A256CE2AE613F4439C965503FB2FE1BD /* SwiftReorder-dummy.m */,
+				2252F3A926275D5EB9A811F928C4002D /* SwiftReorder-prefix.pch */,
+				475BEB253C451EB2A3B1132FB3E6FF82 /* SwiftReorder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftReorder";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D7DC8D82A27135716630F93D69CCFF5C /* Pods-DemoTableViewReorder */ = {
+			isa = PBXGroup;
+			children = (
+				F21077D3BB514135B3A031BEAAB7BE4A /* Info.plist */,
+				AC07B0AD9C2FC2ECF3E9C89118592625 /* Pods-DemoTableViewReorder.modulemap */,
+				936E81E81F8BAEC686D8AADA9664D759 /* Pods-DemoTableViewReorder-acknowledgements.markdown */,
+				12B5CBE7AFF357674ECE7F1BFA2930FC /* Pods-DemoTableViewReorder-acknowledgements.plist */,
+				FE4C9E2B9B35D101FEEA173D2A814AB8 /* Pods-DemoTableViewReorder-dummy.m */,
+				AE0070285D685D27E610D68CCA5B57DD /* Pods-DemoTableViewReorder-frameworks.sh */,
+				7E9269F3617C321A9510F21E0FC5754E /* Pods-DemoTableViewReorder-resources.sh */,
+				B6C7C809693A2626A6F065003017145A /* Pods-DemoTableViewReorder-umbrella.h */,
+				6E1DC2E159361A62C4504ADB6F8E6437 /* Pods-DemoTableViewReorder.debug.xcconfig */,
+				3A3A51E9DC4CE1AF2CB4B7E1959B7846 /* Pods-DemoTableViewReorder.release.xcconfig */,
+			);
+			name = "Pods-DemoTableViewReorder";
+			path = "Target Support Files/Pods-DemoTableViewReorder";
+			sourceTree = "<group>";
+		};
+		E143F0879C64F953AA4DCF08B25281BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02CF286CD6AB445F35BEB97D993E6D92 /* SwiftReorder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DCD54B13C8ACAAA5DF9D75BCC8A040C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2BF22B2185C512D2EF51227BAA02D2 /* Pods-DemoTableViewReorderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CD8928145EB72535D3FA0D3B7CCCC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D657387ACAE09C117AC9039A886D08 /* Pods-DemoTableViewReorderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84356ACB7A7D61FAC5CAB9636EE068E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E85DFC489459763E0405F45B328351F /* SwiftReorder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4118E67377C3738E9CE6C4D697E6D84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D500077E001FCF3628D284C27F1F0D7 /* Pods-DemoTableViewReorder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2108310D82E5AA6A9BFA25DF1004625A /* SwiftReorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7044D06DC2E273405D949333455DBC /* Build configuration list for PBXNativeTarget "SwiftReorder" */;
+			buildPhases = (
+				A9098BC2AD79C72EF364084FDBD89008 /* Sources */,
+				5470E3EE00D8E7F893CF60881262D2C7 /* Frameworks */,
+				84356ACB7A7D61FAC5CAB9636EE068E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftReorder;
+			productName = SwiftReorder;
+			productReference = EED2E5E55FBC1A6C0622E7D79A9D85ED /* SwiftReorder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B7E71E8D74D3C5504AF5FECD13228B3 /* Pods-DemoTableViewReorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4722A0143E355DE3F50E6B9598D45B03 /* Build configuration list for PBXNativeTarget "Pods-DemoTableViewReorderTests" */;
+			buildPhases = (
+				75266F74DE85305100AC02091E9D85E9 /* Sources */,
+				401812B6A9EAE1F01DD335821AFE5B44 /* Frameworks */,
+				3DCD54B13C8ACAAA5DF9D75BCC8A040C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0626D0F53113F98AB2FA063FD76EF91A /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoTableViewReorderTests";
+			productName = "Pods-DemoTableViewReorderTests";
+			productReference = 97DFDD85C2CEB2334AB0325A5D9D9500 /* Pods_DemoTableViewReorderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		952756BA70F2EB13202C21FC9AD10BC6 /* Pods-DemoTableViewReorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656904E60E5213AE4F5D923B67190047 /* Build configuration list for PBXNativeTarget "Pods-DemoTableViewReorderUITests" */;
+			buildPhases = (
+				9DE4A8E5700221E56C6FC53E15863F78 /* Sources */,
+				33079A3F158044E51F024FCE3B1484D6 /* Frameworks */,
+				52CD8928145EB72535D3FA0D3B7CCCC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AD01D25865E9E14B7CD2F6DDBCF5BA /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoTableViewReorderUITests";
+			productName = "Pods-DemoTableViewReorderUITests";
+			productReference = 47E547F63FBF538E3FE2CFF2517E68A8 /* Pods_DemoTableViewReorderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0D5C1C98AFECA1F8B85EF11C6765250 /* Pods-DemoTableViewReorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDEE29A7DA527595B58280B9FDEA971 /* Build configuration list for PBXNativeTarget "Pods-DemoTableViewReorder" */;
+			buildPhases = (
+				00756BB7872B3E7437155D4975F28811 /* Sources */,
+				DBBA891D6C734B9CB0E25B47F8F08487 /* Frameworks */,
+				D4118E67377C3738E9CE6C4D697E6D84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DBC0761B2BE143550687C39469A5CC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoTableViewReorder";
+			productName = "Pods-DemoTableViewReorder";
+			productReference = 9FAD30C0057D42BBFFB7E4A3CFB1D3C0 /* Pods_DemoTableViewReorder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0A33D982E5B9085D9D4598AB117D9810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0D5C1C98AFECA1F8B85EF11C6765250 /* Pods-DemoTableViewReorder */,
+				4B7E71E8D74D3C5504AF5FECD13228B3 /* Pods-DemoTableViewReorderTests */,
+				952756BA70F2EB13202C21FC9AD10BC6 /* Pods-DemoTableViewReorderUITests */,
+				2108310D82E5AA6A9BFA25DF1004625A /* SwiftReorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00756BB7872B3E7437155D4975F28811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5318610BAEDB5436B767E9099F02B23D /* Pods-DemoTableViewReorder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75266F74DE85305100AC02091E9D85E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1584B32F607BF4763D6644D25B36396 /* Pods-DemoTableViewReorderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE4A8E5700221E56C6FC53E15863F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44843D548ABBBEEFF89E54D7F2191384 /* Pods-DemoTableViewReorderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9098BC2AD79C72EF364084FDBD89008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBFA77E5ED0047FCA9B45D420534E87 /* ReorderController+AutoScroll.swift in Sources */,
+				6D82D843B8F6E63546EBDA1A10A92E1F /* ReorderController+DestinationRow.swift in Sources */,
+				7A6F503FDA1B937ECFC375DDB8F14A41 /* ReorderController+GestureRecognizer.swift in Sources */,
+				C909A54828763A996A75E438DEA63BE5 /* ReorderController+SnapshotView.swift in Sources */,
+				8ED5425FF72F71EAC4E348296F00EB8F /* ReorderController.swift in Sources */,
+				BFB1C4F256BEC5DD75955B6F37A2566A /* SwiftReorder-dummy.m in Sources */,
+				4CE3B4E528849F6425B3D3EE85A683F3 /* UITableView+Reorder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03AD01D25865E9E14B7CD2F6DDBCF5BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DemoTableViewReorder";
+			target = E0D5C1C98AFECA1F8B85EF11C6765250 /* Pods-DemoTableViewReorder */;
+			targetProxy = 5AECEA98F3863A2A741B34EA3A5BB076 /* PBXContainerItemProxy */;
+		};
+		0626D0F53113F98AB2FA063FD76EF91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DemoTableViewReorder";
+			target = E0D5C1C98AFECA1F8B85EF11C6765250 /* Pods-DemoTableViewReorder */;
+			targetProxy = DD46225B6242413C30243C355B4710DA /* PBXContainerItemProxy */;
+		};
+		4DBC0761B2BE143550687C39469A5CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftReorder;
+			target = 2108310D82E5AA6A9BFA25DF1004625A /* SwiftReorder */;
+			targetProxy = C9425D851E96BEDD0E56D3B06763085D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CB752F296A67FD14E5B11587FA53065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7433461349D05F7EFEC0A26D6E07758B /* SwiftReorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftReorder/SwiftReorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftReorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftReorder/SwiftReorder.modulemap";
+				PRODUCT_MODULE_NAME = SwiftReorder;
+				PRODUCT_NAME = SwiftReorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50F1E472F72ED28EA04FA9A5561228F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C475211CC4E092E381EC2A761C9FF21 /* Pods-DemoTableViewReorderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoTableViewReorderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoTableViewReorderTests/Pods-DemoTableViewReorderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61CD362ED0226002E6F6950D55E6EEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1DC2E159361A62C4504ADB6F8E6437 /* Pods-DemoTableViewReorder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoTableViewReorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoTableViewReorder/Pods-DemoTableViewReorder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		89AAA11C54FE5CF6CF5F72756799B454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E68B1A9AE47D0035B9CD8CAD7F0B1A /* Pods-DemoTableViewReorderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoTableViewReorderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoTableViewReorderTests/Pods-DemoTableViewReorderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C229A7BB56E62A27A022C956799C2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3A51E9DC4CE1AF2CB4B7E1959B7846 /* Pods-DemoTableViewReorder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoTableViewReorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoTableViewReorder/Pods-DemoTableViewReorder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1F62C69D16CA7F5B62C8A98DA5A63C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835D15F338E351A6B644110E02410D92 /* Pods-DemoTableViewReorderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoTableViewReorderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoTableViewReorderUITests/Pods-DemoTableViewReorderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC8BA4DEA249D51CC9910DA3165272A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6A51C624A9D261B9114C0659D2BBF5 /* Pods-DemoTableViewReorderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoTableViewReorderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoTableViewReorderUITests/Pods-DemoTableViewReorderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA4DBB905FEB9A37735995BD3E5DFE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7433461349D05F7EFEC0A26D6E07758B /* SwiftReorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftReorder/SwiftReorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftReorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftReorder/SwiftReorder.modulemap";
+				PRODUCT_MODULE_NAME = SwiftReorder;
+				PRODUCT_NAME = SwiftReorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4722A0143E355DE3F50E6B9598D45B03 /* Build configuration list for PBXNativeTarget "Pods-DemoTableViewReorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F1E472F72ED28EA04FA9A5561228F9 /* Debug */,
+				89AAA11C54FE5CF6CF5F72756799B454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656904E60E5213AE4F5D923B67190047 /* Build configuration list for PBXNativeTarget "Pods-DemoTableViewReorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F62C69D16CA7F5B62C8A98DA5A63C3 /* Debug */,
+				EC8BA4DEA249D51CC9910DA3165272A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F7044D06DC2E273405D949333455DBC /* Build configuration list for PBXNativeTarget "SwiftReorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4DBB905FEB9A37735995BD3E5DFE9D /* Debug */,
+				0CB752F296A67FD14E5B11587FA53065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDEE29A7DA527595B58280B9FDEA971 /* Build configuration list for PBXNativeTarget "Pods-DemoTableViewReorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CD362ED0226002E6F6950D55E6EEC4 /* Debug */,
+				8C229A7BB56E62A27A022C956799C2A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
