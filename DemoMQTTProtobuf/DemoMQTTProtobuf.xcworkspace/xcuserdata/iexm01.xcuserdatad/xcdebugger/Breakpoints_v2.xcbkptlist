@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemoMQTTProtobuf/ViewController.swift"
+            timestampString = "548163643.244012"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "parseControllerDetails(responseString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemoMQTTProtobuf/ViewController.swift"
+            timestampString = "548163643.244679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "parseControllerDetails(responseString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DemoMQTTProtobuf.ViewController.parseControllerDetails(responseString: Swift.String) -&gt; ()"
+                  moduleName = "DemoMQTTProtobuf"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iexm01/Documents/GitBackup/DemoMQTTProtobuf/DemoMQTTProtobuf/ViewController.swift"
+                  timestampString = "548163643.673963"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "4633">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DemoMQTTProtobuf.ViewController.parseControllerDetails(responseString: Swift.String) -&gt; ()"
+                  moduleName = "DemoMQTTProtobuf"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iexm01/Documents/GitBackup/DemoMQTTProtobuf/DemoMQTTProtobuf/ViewController.swift"
+                  timestampString = "548163643.67711"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "5186">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

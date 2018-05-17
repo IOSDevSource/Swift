@@ -1,0 +1,6 @@
+syntax = "proto3";
+message ControllerData {
+    string identifier = 1;
+    string origin= 2;
+    string data= 3;
+}

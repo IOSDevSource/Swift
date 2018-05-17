@@ -1,0 +1,6 @@
+framework module Pods_DemoMQTTProtobuf {
+  umbrella header "Pods-DemoMQTTProtobuf-umbrella.h"
+
+  export *
+  module * { export * }
+}
