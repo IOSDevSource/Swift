@@ -1,0 +1,12 @@
+framework module DemoGitFramework [system] [extern_c] {
+    header "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/CommonCrypto/CommonCrypto.h"
+    header "/Users/iexm01/Documents/GitBackup/DemoGitFramework/DemoGitFramework/Utilities/Reachability.h"
+    export *
+}
+
+
+
+module DemoGitFramework.Swift {
+    header "DemoGitFramework-Swift.h"
+    requires objc
+}
